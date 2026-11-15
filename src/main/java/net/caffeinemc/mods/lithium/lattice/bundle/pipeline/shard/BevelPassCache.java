@@ -746,7 +746,7 @@ public final class BevelPassCache {
 
       if (bs && var1 == var0.getMainHandStack()) {
          bs = false;
-         byte var3 = 0;
+         int var3 = 0;
          if (DRAW_ANIM && (BevelArrayCache.p(var3) != 0 || BevelArrayCache.ac(var3)) && var2 >= 0.5F && !bt) {
             long var4 = System.nanoTime();
             BevelArrayCache.ab(var3, SKIN * 2 + 1, SKIN, HOLD_STYLE, var4, SPEED, false);
@@ -1094,7 +1094,7 @@ public final class BevelPassCache {
       j();
       BevelArrayCache.FIDGETS = FIDGETS;
       int var3 = SKIN;
-      byte var4 = 1;
+      int var4 = 1;
       if (var1 - cz > 700000000L) {
          BevelArrayCache.s(var4);
          dd = -2;

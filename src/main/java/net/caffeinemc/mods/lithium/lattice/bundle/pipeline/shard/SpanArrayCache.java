@@ -957,7 +957,7 @@ public final class SpanArrayCache {
          Thread.currentThread().getName().length();
       }
 
-      byte var1 = 3;
+      int var1 = 3;
       int var2 = -428379932 ^ -428376860;
       double[] var3 = new double[3072];
       double[] var4 = new double[3072];
@@ -1073,7 +1073,7 @@ public final class SpanArrayCache {
             double var7 = 3.3;
             double var9 = 7.1;
             int var11 = (int)var5;
-            byte var12 = 3;
+            int var12 = 3;
             byte var13 = 7;
             double var14 = var5 - var11;
             double var16 = var7 - var12;
@@ -1315,9 +1315,9 @@ public final class SpanArrayCache {
          Math.abs(Integer.MIN_VALUE);
       }
 
-      byte var1 = 2;
+      int var1 = 2;
       int var2 = 850758691 ^ 850759203;
-      byte var3 = 40;
+      int var3 = 40;
       double[] var4 = new double[512];
       double[] var5 = new double[512];
       double[] var6 = new double[512];

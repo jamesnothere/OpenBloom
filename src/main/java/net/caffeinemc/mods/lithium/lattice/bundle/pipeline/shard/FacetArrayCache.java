@@ -439,7 +439,7 @@ public final class FacetArrayCache {
          System.nanoTime();
       }
 
-      byte var1 = 20;
+      int var1 = 20;
       int var2 = CX[var1];
       int var3 = CY[var1];
       int var4 = CS[var1];
@@ -468,7 +468,7 @@ public final class FacetArrayCache {
          Thread.currentThread().getName().length();
       }
 
-      byte var1 = 19;
+      int var1 = 19;
       int var2 = CX[var1];
       int var3 = CY[var1];
       int var4 = CS[var1];
@@ -557,7 +557,7 @@ public final class FacetArrayCache {
       int var3 = 0;
       int var4 = 0;
       int var5 = 0;
-      byte var6 = 0;
+      int var6 = 0;
 
       while (true) {
          switch (var6) {
@@ -691,7 +691,7 @@ public final class FacetArrayCache {
          System.nanoTime();
       }
 
-      byte var1 = 5;
+      int var1 = 5;
       int var2 = CX[var1];
       int var3 = CY[var1];
       int var4 = CS[var1];
@@ -754,7 +754,7 @@ public final class FacetArrayCache {
          Math.abs(Integer.MIN_VALUE);
       }
 
-      byte var1 = 6;
+      int var1 = 6;
       int var2 = CX[var1];
       int var3 = CY[var1];
       int var4 = CS[var1];
@@ -806,7 +806,7 @@ public final class FacetArrayCache {
          new Object().hashCode();
       }
 
-      byte var1 = 7;
+      int var1 = 7;
       int var2 = CX[var1];
       int var3 = CY[var1];
       int var4 = CS[var1];
@@ -1205,7 +1205,7 @@ public final class FacetArrayCache {
          int var1 = CX[23];
          int var2 = CY[23];
          int var3 = CS[23];
-         byte var4 = 16;
+         int var4 = 16;
          int var5 = var3 - 2 * var4;
          double var6 = var5 * 0.5;
 

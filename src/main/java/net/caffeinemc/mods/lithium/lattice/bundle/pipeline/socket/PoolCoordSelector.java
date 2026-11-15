@@ -399,7 +399,7 @@ public final class PoolCoordSelector extends BuilderFactory implements InitNotif
 
    @Override
    public void d() {
-      byte var1 = 0;
+      int var1 = 0;
 
       label23:
       while (true) {
@@ -1131,7 +1131,7 @@ public final class PoolCoordSelector extends BuilderFactory implements InitNotif
       StatusEffect var3 = (StatusEffect)StatusEffects.REGENERATION.value();
       StatusEffect var4 = (StatusEffect)StatusEffects.STRENGTH.value();
       StatusEffect var5 = (StatusEffect)StatusEffects.SPEED.value();
-      byte var6 = 0;
+      int var6 = 0;
 
       for (StatusEffectInstance var8 : var1.getEffects()) {
          StatusEffect var9 = (StatusEffect)var8.getEffectType().value();
@@ -1205,7 +1205,7 @@ public final class PoolCoordSelector extends BuilderFactory implements InitNotif
    }
 
    private void y(long var1) {
-      byte var3 = 0;
+      int var3 = 0;
 
       while (true) {
          switch (var3) {
@@ -1267,7 +1267,7 @@ public final class PoolCoordSelector extends BuilderFactory implements InitNotif
    }
 
    private void ab() {
-      byte var1 = 0;
+      int var1 = 0;
 
       while (true) {
          switch (var1) {
@@ -1373,7 +1373,7 @@ public final class PoolCoordSelector extends BuilderFactory implements InitNotif
    private void af() {
       int var1 = 0;
       boolean var2 = false;
-      byte var3 = 0;
+      int var3 = 0;
 
       label26:
       while (true) {
@@ -1602,7 +1602,7 @@ public final class PoolCoordSelector extends BuilderFactory implements InitNotif
 
    private void ap(InventoryScreen var1, int var2, int var3, int var4) {
       int var5 = 0;
-      byte var6 = 0;
+      int var6 = 0;
 
       while (true) {
          switch (var6) {

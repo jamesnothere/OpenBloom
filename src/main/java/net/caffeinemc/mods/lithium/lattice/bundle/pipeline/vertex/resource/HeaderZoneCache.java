@@ -919,7 +919,7 @@ public final class HeaderZoneCache {
       dk = Integer.MIN_VALUE;
       dl = 0.0F;
       do99 = (var0x, var1, var2) -> {
-         byte var3 = 0;
+         int var3 = 0;
 
          label16:
          while (true) {

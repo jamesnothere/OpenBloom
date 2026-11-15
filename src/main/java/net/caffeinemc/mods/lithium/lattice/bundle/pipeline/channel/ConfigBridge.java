@@ -1094,7 +1094,7 @@ public class ConfigBridge implements ClientModInitializer {
          }
 
          String var16 = new String(var6).intern();
-         byte var17 = -1;
+         int var17 = -1;
          var0[var1++] = var16;
          if ((var5 += var4) >= var3) {
             ar = var0;

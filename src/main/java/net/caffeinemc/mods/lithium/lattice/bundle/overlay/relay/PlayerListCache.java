@@ -99,7 +99,7 @@ public abstract class PlayerListCache {
                      var11[var33 + 3] = var31;
                   }
 
-                  byte var26 = 2;
+                  int var26 = 2;
 
                   for (int var29 = 2; var29 < var12; var29 += 2) {
                      if (var11[var29] >= var11[var26 - 2] + var11[var26 - 1]) {

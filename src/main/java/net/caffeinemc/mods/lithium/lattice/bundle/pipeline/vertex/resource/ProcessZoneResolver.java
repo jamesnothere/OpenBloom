@@ -326,7 +326,7 @@ public final class ProcessZoneResolver extends BuilderFactory implements InitNot
    }
 
    private void f(long var1) {
-      byte var3 = 0;
+      int var3 = 0;
 
       label20:
       while (true) {

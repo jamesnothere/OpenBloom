@@ -699,7 +699,7 @@ public final class ShellArrayCache {
    }
 
    private static void k(float var0, float var1, float var2, float var3) {
-      byte var4 = 0;
+      int var4 = 0;
 
       while (true) {
          switch (var4) {
@@ -1374,7 +1374,7 @@ public final class ShellArrayCache {
          float var30 = var10[19];
          float var31 = var10[20];
          int var32 = 552312589 ^ 552311333;
-         byte var33 = 9;
+         int var33 = 9;
          int var34 = var32 + var4;
          float[] var35 = dl;
          float[] var36 = dk;

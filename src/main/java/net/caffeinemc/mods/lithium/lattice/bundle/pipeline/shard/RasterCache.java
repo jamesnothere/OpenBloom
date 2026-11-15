@@ -79,7 +79,7 @@ public final class RasterCache {
             NativeImage var0 = new NativeImage(Format.RGBA, 64, 64, false);
             double var1 = 32.0;
             double var3 = 32.0;
-            byte var5 = 4;
+            int var5 = 4;
 
             for (int var6 = 0; var6 < 64; var6++) {
                for (int var7 = 0; var7 < 64; var7++) {
@@ -138,7 +138,7 @@ public final class RasterCache {
                a();
             }
 
-            byte var7 = 32;
+            int var7 = 32;
             var0.fill(var1 + var5, var2, var1 + var3 - var5, var2 + var4, var6);
             var0.fill(var1, var2 + var5, var1 + var5, var2 + var4 - var5, var6);
             var0.fill(var1 + var3 - var5, var2 + var5, var1 + var3, var2 + var4 - var5, var6);

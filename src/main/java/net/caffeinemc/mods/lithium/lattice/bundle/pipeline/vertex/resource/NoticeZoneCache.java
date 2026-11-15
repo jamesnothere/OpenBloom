@@ -413,7 +413,7 @@ public final class NoticeZoneCache {
                }
             }
 
-            byte var10 = (byte)(var4 >= 0 ? var4 : var5);
+            int var10 = (byte)(var4 >= 0 ? var4 : var5);
             ad[var10] = var0;
             ae[var10] = var1;
             af[var10] = false;

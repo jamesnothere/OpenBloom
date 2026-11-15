@@ -988,7 +988,7 @@ public final class RenderCZ extends BuilderFactory implements InitNotifier {
    }
 
    private boolean u() {
-      byte var1 = 0;
+      int var1 = 0;
 
       label16:
       while (true) {
@@ -1318,7 +1318,7 @@ public final class RenderCZ extends BuilderFactory implements InitNotifier {
    }
 
    private void ag() {
-      byte var1 = 0;
+      int var1 = 0;
 
       while (true) {
          switch (var1) {

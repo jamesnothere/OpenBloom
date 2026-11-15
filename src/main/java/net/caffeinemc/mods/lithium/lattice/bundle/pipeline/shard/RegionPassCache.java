@@ -784,7 +784,7 @@ public final class RegionPassCache {
       InitAdapter var4 = null;
       Object var5 = null;
       ea = var0;
-      byte var6 = 0;
+      int var6 = 0;
       int var7 = cz[0];
       int var8 = cz[1];
 

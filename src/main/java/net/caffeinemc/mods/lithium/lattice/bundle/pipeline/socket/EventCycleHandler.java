@@ -406,7 +406,7 @@ public final class EventCycleHandler extends BuilderFactory implements InitNotif
 
    @Override
    public void d() {
-      byte var1 = 0;
+      int var1 = 0;
 
       label17:
       while (true) {

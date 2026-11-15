@@ -511,7 +511,7 @@ public final class EchoPassCache {
 
    public static void b() {
       int var0 = 0;
-      byte var1 = 0;
+      int var1 = 0;
 
       label22:
       while (true) {
@@ -653,7 +653,7 @@ public final class EchoPassCache {
          hl = var5;
       }
 
-      byte var6 = 8;
+      int var6 = 8;
       cj[var6] = true;
       cn[var6] = var5;
       ck[var6] = true;
@@ -696,7 +696,7 @@ public final class EchoPassCache {
          System.nanoTime();
       }
 
-      byte var0 = 8;
+      int var0 = 8;
       if (RegionPassCache.PV && cj[var0]) {
          c();
          fj = 0;
@@ -802,7 +802,7 @@ public final class EchoPassCache {
                   }
                }
 
-               byte var44 = (byte)(var9 < var8 && var10 >= 0 ? var10 : var11);
+               int var44 = (byte)(var9 < var8 && var10 >= 0 ? var10 : var11);
                if (var44 < 0) {
                   return;
                }

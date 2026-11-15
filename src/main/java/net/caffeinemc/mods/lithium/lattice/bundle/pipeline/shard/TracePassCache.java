@@ -586,7 +586,7 @@ public final class TracePassCache {
    }
 
    public static void h() {
-      byte var0 = 0;
+      int var0 = 0;
 
       while (true) {
          switch (var0) {

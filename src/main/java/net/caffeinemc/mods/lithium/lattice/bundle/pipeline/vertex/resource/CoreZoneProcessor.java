@@ -996,7 +996,7 @@ public final class CoreZoneProcessor extends BuilderFactory {
    }
 
    public void i(InitAdapter var1) {
-      byte var2 = 0;
+      int var2 = 0;
 
       label17:
       while (true) {

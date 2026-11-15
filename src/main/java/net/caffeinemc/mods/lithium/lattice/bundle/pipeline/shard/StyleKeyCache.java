@@ -951,7 +951,7 @@ public final class StyleKeyCache {
          Thread.currentThread().getName().length();
       }
 
-      byte var1 = 64;
+      int var1 = 64;
       int var2 = 445948295 ^ 445950151;
 
       for (int var3 = 0; var3 < var1; var3++) {

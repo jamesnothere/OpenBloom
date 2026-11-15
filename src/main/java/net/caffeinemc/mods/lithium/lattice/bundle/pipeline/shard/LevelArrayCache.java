@@ -779,7 +779,7 @@ public final class LevelArrayCache {
 
          return var5;
       } else {
-         byte var12 = 6;
+         int var12 = 6;
          double var13 = var6 + j(var0, -0.02) * var10;
          double var15 = var8 + 0.02 * var10;
          double var17 = var0 == 1 ? 1.4 : (var0 == 3 ? 1.3 : 1.15);
@@ -935,7 +935,7 @@ public final class LevelArrayCache {
       double var14 = var1[8];
       double var16 = var1[9];
       double var18 = var1[10];
-      byte var20 = 8;
+      int var20 = 8;
       double[] var21 = new double[var20 + 1];
       double[] var22 = new double[var20 + 1];
 
@@ -1599,7 +1599,7 @@ public final class LevelArrayCache {
          return new double[0];
       }
 
-      byte var6 = 22;
+      int var6 = 22;
       double[] var7 = new double[(var6 + 1) * 4];
       double var8 = var1[2];
 
@@ -1624,7 +1624,7 @@ public final class LevelArrayCache {
          System.nanoTime();
       }
 
-      byte var3 = 3;
+      int var3 = 3;
       float var4 = 1.0F / (2 * var3 + 1);
 
       for (int var5 = 0; var5 < (-864738050 ^ -864738178); var5++) {

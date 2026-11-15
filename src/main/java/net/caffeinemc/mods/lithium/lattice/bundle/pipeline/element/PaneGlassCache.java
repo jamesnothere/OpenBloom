@@ -279,7 +279,7 @@ public final class PaneGlassCache implements SimpleGuiElementRenderState {
    }
 
    public void clip(ScreenRect var1) {
-      byte var2 = 0;
+      int var2 = 0;
 
       label16:
       while (true) {

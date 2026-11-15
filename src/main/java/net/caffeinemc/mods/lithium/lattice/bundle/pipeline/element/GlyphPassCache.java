@@ -393,7 +393,7 @@ public final class GlyphPassCache implements SimpleGuiElementRenderState {
    }
 
    private static void f(long var0) {
-      byte var2 = 0;
+      int var2 = 0;
 
       while (true) {
          switch (var2) {

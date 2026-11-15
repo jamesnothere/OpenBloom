@@ -484,7 +484,7 @@ public final class BoundQuadCache {
    }
 
    public static int l(int var0, long var1) {
-      byte var3 = 0;
+      int var3 = 0;
 
       while (true) {
          label41:
@@ -796,7 +796,7 @@ public final class BoundQuadCache {
    private void q(int var1) {
       int var2 = 0;
       int var3 = 0;
-      byte var4 = 0;
+      int var4 = 0;
 
       label16:
       while (true) {

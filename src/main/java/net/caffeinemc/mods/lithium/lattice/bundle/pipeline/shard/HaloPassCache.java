@@ -1068,7 +1068,7 @@ public final class HaloPassCache {
             float var85 = Float.intBitsToFloat((int)(Math.min(1.0F, 0.85F * var80) * 255.0F + 0.5F) << 24 | ei);
 
             for (int var86 = 0; var86 < 59; var86++) {
-               byte var87 = WF_R[var86];
+               int var87 = WF_R[var86];
                boolean var88 = var87 <= 1;
                float var89 = WF_X[var86];
                float var90 = WF_Y[var86];
@@ -2266,7 +2266,7 @@ public final class HaloPassCache {
 
    public static void p() {
       int var0 = 0;
-      byte var1 = 0;
+      int var1 = 0;
 
       label30:
       while (true) {

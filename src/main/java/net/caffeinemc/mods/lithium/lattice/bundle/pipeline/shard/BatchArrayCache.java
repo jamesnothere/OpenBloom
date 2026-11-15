@@ -708,7 +708,7 @@ public final class BatchArrayCache {
 
    private static int j(double[] var0, double[] var1, int var2, double var3, double var5) {
       int var7 = 0;
-      byte var8 = 0;
+      int var8 = 0;
 
       while (true) {
          label32: {
@@ -1775,7 +1775,7 @@ public final class BatchArrayCache {
                float var91 = (float)var89[1];
                float var162 = (float)var89[2];
                float var93 = (float)Math.max(0.0, (var153 - 0.5) / 0.5 * 0.4);
-               byte var168 = 0;
+               int var168 = 0;
 
                for (int var95 = var85 * var150 * 4; var168 < var95; var168 += 4) {
                   float var174 = var1[var168 + 3];
@@ -2646,7 +2646,7 @@ public final class BatchArrayCache {
       double var13 = var1[var2 + 17];
       double var15 = var1[var2 + 18];
       double var17 = var15 * 0.78;
-      byte var19 = 6;
+      int var19 = 6;
       double[] var20 = new double[var19 + 1];
       double[] var21 = new double[var19 + 1];
       double var22 = 1.0E9;
@@ -2818,7 +2818,7 @@ public final class BatchArrayCache {
       double var16 = 0.085 * var12;
       double var18 = var12 - var16 - var14;
       double var20 = (var16 - var14) / var18;
-      byte var22 = 0;
+      int var22 = 0;
       var1[var22 + 0] = 0.0;
       var1[var22 + 1] = var12 * 0.5;
       var1[var22 + 2] = 1.0;

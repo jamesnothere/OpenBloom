@@ -19,8 +19,8 @@ public final class SectorArrayCache {
 
       int[] var0 = new int[131072];
       Random var1 = new Random(25482170381L);
-      byte var2 = 9;
-      byte var3 = 33;
+      int var2 = 9;
+      int var3 = 33;
       float[] var4 = new float[var2 * var2];
       float[] var5 = new float[var3 * var3];
 
@@ -32,7 +32,7 @@ public final class SectorArrayCache {
          var5[var55] = var1.nextFloat();
       }
 
-      byte var56 = 28;
+      int var56 = 28;
       float[] var7 = new float[var56];
       float[] var8 = new float[var56];
       float[] var9 = new float[var56];

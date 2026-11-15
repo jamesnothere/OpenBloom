@@ -3134,7 +3134,7 @@ public final class LoaderDelegate extends Screen {
             NativeImage var0 = new NativeImage(Format.RGBA, 1290310370 ^ 1290310242, 838468028 ^ 838467900, false);
             double var1 = 64.0;
             double var3 = 64.0;
-            byte var5 = 4;
+            int var5 = 4;
 
             for (int var6 = 0; var6 < (1875624728 ^ 1875624856); var6++) {
                for (int var7 = 0; var7 < (1490293369 ^ 1490293497); var7++) {
@@ -3200,7 +3200,7 @@ public final class LoaderDelegate extends Screen {
                   by();
                }
 
-               byte var12 = 64;
+               int var12 = 64;
                var0.fill(var1 + var5, var2, var1 + var3 - var5, var2 + var4, var11);
                var0.fill(var1, var2 + var5, var1 + var5, var2 + var4 - var5, var11);
                var0.fill(var1 + var3 - var5, var2 + var5, var1 + var3, var2 + var4 - var5, var11);
@@ -3677,7 +3677,7 @@ public final class LoaderDelegate extends Screen {
 
          try {
             NativeImage var0 = new NativeImage(Format.RGBA, 64, 32, false);
-            byte var1 = 4;
+            int var1 = 4;
 
             for (int var2 = 0; var2 < 32; var2++) {
                for (int var3 = 0; var3 < 64; var3++) {
@@ -4440,7 +4440,7 @@ public final class LoaderDelegate extends Screen {
       if (var4 != null) {
          this.es(var1, var2, var3);
          int var5 = -1994665119 ^ -1994664969;
-         byte var6 = 62;
+         int var6 = 62;
          int var7 = (var2 - var5) / 2;
          int var8 = (var3 - var6) / 2;
          et(var1, var7, var8, var5, var6, 10);
@@ -4463,7 +4463,7 @@ public final class LoaderDelegate extends Screen {
          int var12 = var7 + 10;
          int var13 = var8 + 32;
          int var14 = var5 - 20;
-         byte var15 = 16;
+         int var15 = 16;
          bu(var1, var12, var13, var14, var15, 6, this.acv ? n(-1176194804 ^ -1176194638, 80, 92, -1984497781 ^ -1984497887) : (yv ? aac : yg));
          bu(var1, var12 + 1, var13 + 1, var14 - 2, var15 - 2, 5, yv ? aad : n(9, 9, 14, 748420318 ^ 748420129));
          String var16 = System.currentTimeMillis() % 1000L < 500L ? this.acu + abp[8] : this.acu;
@@ -4568,9 +4568,9 @@ public final class LoaderDelegate extends Screen {
       }
 
       int var3 = -2133214747 ^ -2133214919;
-      byte var4 = 18;
+      int var4 = 18;
       int var5 = (var2 - var3) / 2;
-      byte var6 = 20;
+      int var6 = 20;
       boolean var7 = this.abx;
       int var8 = var4 / 2;
       if (!this.a(var1, var5, var6, var3, var4, var8)) {
@@ -4709,7 +4709,7 @@ public final class LoaderDelegate extends Screen {
       }
 
       int var7 = this.abr;
-      byte var8 = 10;
+      int var8 = 10;
       boolean var9 = this.abv.contains(var2);
       float var10 = var9 ? 0.0F : 1.0F;
       float var11 = this.aiy.getFloat(var2);
@@ -4933,7 +4933,7 @@ public final class LoaderDelegate extends Screen {
 
       int var5 = this.abr + 40;
       int var6 = (var2 - var5) / 2;
-      byte var7 = 48;
+      int var7 = 48;
       int var8 = this.ct(this.abz) + 5;
       int var9 = Math.min(-1093008117 ^ -1093008285, Math.max(17, var8));
       this.co(var1, var6, var7, var5, var9, za, false);
@@ -5341,8 +5341,8 @@ public final class LoaderDelegate extends Screen {
          if (var2 instanceof CheckerBridge var22) {
             this.be(var1, var20, var21, var3 + 12, var4 + 5, var50, yv);
             int var30 = var3 + var5 - 24;
-            byte var31 = 16;
-            byte var32 = 8;
+            int var31 = 16;
+            int var32 = 8;
             int var33 = var4 + 5;
             boolean var34 = var22.f();
             float var35 = this.da(var22, var34 ? 1.0F : 0.0F);
@@ -5602,7 +5602,7 @@ public final class LoaderDelegate extends Screen {
          bu(var1, var6 + 1, var7 + 1, var8 - 2, var9 - 2, var10 - 1, cg(var12 <= 0.0F ? zh : cq(zh, zi, var12)));
       }
 
-      byte var13 = 16;
+      int var13 = 16;
       int var14 = var6 + var10 - var13 / 2;
       int var15 = var7 + var10 - var13 / 2;
       ClientPlayerEntity var16 = a.player;
@@ -5750,9 +5750,9 @@ public final class LoaderDelegate extends Screen {
       }
 
       int var4 = this.alh;
-      byte var5 = 9;
+      int var5 = 9;
       int var6 = this.ali;
-      byte var7 = 26;
+      int var7 = 26;
       int var8 = var7 / 2;
       int var9 = -1;
       if (var3 >= var5 && var3 <= var5 + var7) {
@@ -5835,7 +5835,7 @@ public final class LoaderDelegate extends Screen {
          System.nanoTime();
       }
 
-      byte var7 = 10;
+      int var7 = 10;
       int var8 = this.bd(var4);
       int var9 = var8 + 28;
       boolean var10 = var5 >= var2 && var5 <= var2 + var9 && var6 >= var3 && var6 <= var3 + 21;
@@ -5888,7 +5888,7 @@ public final class LoaderDelegate extends Screen {
                return;
             }
 
-            byte var5 = 8;
+            int var5 = 8;
 
             for (int var6 = 0; var6 < var5; var6++) {
                int var7 = var3 * var6 / var5;
@@ -9811,7 +9811,7 @@ public final class LoaderDelegate extends Screen {
       } else {
          int var2 = var1.size();
          int var3 = 1;
-         byte var4 = 0;
+         int var4 = 0;
 
          try {
             for (int var5 = 0; var5 < var2; var5++) {
@@ -9919,7 +9919,7 @@ public final class LoaderDelegate extends Screen {
       int[] var9 = new int[var6];
       int[] var10 = new int[var6];
       boolean[] var11 = new boolean[var6];
-      byte var12 = 64;
+      int var12 = 64;
       int var13 = 0;
       int[] var14 = new int[var12];
       InitAdapter[] var15 = new InitAdapter[var12];
@@ -10601,7 +10601,7 @@ public final class LoaderDelegate extends Screen {
          float var21 = (var39 - 8.0F) * 0.64F;
          if (!this.ls(var9, var10, var37, var39, var40, var3)) {
             int var22 = var9 + var10 - 8;
-            byte var23 = -1;
+            int var23 = -1;
             if (var5) {
                BundleSync.Entry var44 = this.jx();
                if (var44 != null) {
@@ -12498,7 +12498,7 @@ public final class LoaderDelegate extends Screen {
       int[] var6 = nz(var4, var2, var5.length);
       int var7 = 0;
       int var8 = 36;
-      byte var9 = 0;
+      int var9 = 0;
       if (var3 > 0) {
          var7 = this.ny(var7, 4, 0, var8, var3);
          var8 += var3 + 14;
@@ -13751,8 +13751,8 @@ public final class LoaderDelegate extends Screen {
 
       float var11 = Math.max(var10, var6 ? 1.0F : 0.0F);
       this.ay(var1, var5, var2 + 12, var3 + 4, var11 <= 0.0F ? yj : (var11 >= 1.0F ? yi : cq(yj, yi, var11)), false);
-      byte var12 = 18;
-      byte var13 = 9;
+      int var12 = 18;
+      int var13 = 9;
       int var14 = var2 + var4 - var12 - 8;
       int var15 = var3 + (16 - var13) / 2;
       this.pk(var1, var5, var14, var15, var12, var13, var6);
@@ -13817,7 +13817,7 @@ public final class LoaderDelegate extends Screen {
       MaskEntry var6 = this.adu;
       if (var6 != null) {
          int var7 = 1134274468 ^ 1134274332;
-         byte var8 = 126;
+         int var8 = 126;
          int var9 = (var2 - var7) / 2;
          int var10 = (var3 - var8) / 2;
          this.pj(var1, var9, var10, var7, var8, null, var6, var4, var5);
@@ -13875,7 +13875,7 @@ public final class LoaderDelegate extends Screen {
       MaskEntry var6 = this.adu;
       if (var6 != null) {
          int var7 = -1529657191 ^ -1529657311;
-         byte var8 = 126;
+         int var8 = 126;
          int var9 = (var1 - var7) / 2;
          int var10 = (var2 - var8) / 2;
          if (var3 >= var9 + var7 - 18 && var3 <= var9 + var7 - 5 && var4 >= var10 + 6 && var4 <= var10 + 17) {
@@ -14000,7 +14000,7 @@ public final class LoaderDelegate extends Screen {
          int var11 = var6.a99();
          int var12 = ps(var9);
          int var13 = pt(var10);
-         byte var14 = 58;
+         int var14 = 58;
          double var15 = pu(var11);
          float var17 = (float)Math.sin(var15);
          float var18 = (float)Math.cos(var15);
@@ -14157,7 +14157,7 @@ public final class LoaderDelegate extends Screen {
       String var4 = bno[20];
       int var5 = this.bd(var3) + 10 + this.bd(var4) + 28;
       int var6 = (var2 - var5) / 2;
-      byte var7 = 14;
+      int var7 = 14;
       fq(var1, var6, var7, var5, 24, 12);
       bt(var1, var6, var7, var5, 24.0F, 12.0F, 1191465676 ^ -1340979243, true, true, true, true);
       eu(var1, var6, var7, var5, 24.0F, 12.0F, -917361286 ^ -693251451);
@@ -14657,7 +14657,7 @@ public final class LoaderDelegate extends Screen {
          }
       } else {
          int var14 = -1798224215 ^ -1798224321;
-         byte var17 = 62;
+         int var17 = 62;
          int var11 = (var6 - var14) / 2;
          int var12 = (var7 - var17) / 2;
          if (var3 < var11 || var3 > var11 + var14 || var4 < var12 || var4 > var12 + var17) {
@@ -17908,7 +17908,7 @@ public final class LoaderDelegate extends Screen {
 
       int var5 = this.abr + 40;
       int var6 = (var1 - var5) / 2;
-      byte var7 = 72;
+      int var7 = 72;
       int var8 = Math.min(1823952984 ^ 1823953200, Math.max(17, this.aq(this.abz) + 5));
       if (var2 >= var6 && var2 < var6 + var5 && var3 >= var7 && var3 < var7 + var8) {
          float var9 = this.ajd.getFloat(aje);
@@ -17923,7 +17923,7 @@ public final class LoaderDelegate extends Screen {
 
       int var5 = this.abr + 40;
       int var6 = (var1 - var5) / 2;
-      byte var7 = 72;
+      int var7 = 72;
       int var8 = this.aq(this.abz) + 5;
       int var9 = Math.max(0, var8 - (-425802707 ^ -425802427));
       if (var2 >= var6 && var2 < var6 + var5 && var3 >= var7 && var3 < var7 + (-776538548 ^ -776538332)) {
@@ -19012,7 +19012,7 @@ public final class LoaderDelegate extends Screen {
       int var4 = Math.round(FrameKeeper.ly0[var2]);
       int var5 = Math.round(FrameKeeper.lw[var2]);
       int var6 = Math.round(FrameKeeper.lh[var2]);
-      byte var7 = 10;
+      int var7 = 10;
       int var8 = yv ? yz : cq(this.afg, -218717118 ^ 234267714, 0.22F);
       if (this.afi >= 0) {
          this.wd(var1, var3, var4, var5, var6, var7, zc, var8, 1, true, true, true);
@@ -19508,9 +19508,9 @@ public final class LoaderDelegate extends Screen {
       }
 
       int var4 = this.afx;
-      byte var5 = 12;
+      int var5 = 12;
       int var6 = this.afy;
-      byte var7 = 20;
+      int var7 = 20;
       int var8 = var7 / 2;
       boolean var9 = var2 >= var4 && var2 < var4 + var6 && var3 >= var5 && var3 < var5 + var7;
       float var10 = this.cw(agb, var9);
@@ -20801,7 +20801,7 @@ public final class LoaderDelegate extends Screen {
       }
 
       int var30 = -1;
-      byte var34 = 0;
+      int var34 = 0;
 
       for (int var37 = 0; var37 < apu; var37++) {
          int var39 = apt[var37 * 3];

@@ -753,7 +753,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 18;
+      int var1 = 18;
       ANIM[var1] = new float[][]{
          {
                0.0F,
@@ -1100,7 +1100,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 20;
+      int var1 = 20;
       ANIM[var1] = new float[][]{
          {
                0.0F,
@@ -1326,7 +1326,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 22;
+      int var1 = 22;
       ANIM[var1] = new float[][]{
          {0.0F, 0.0F, 0.12F, 0.008F, 0.5F, -0.19F, 1.28F, -0.205F, 1.65F, -0.19F, 2.25F, -0.18F, 2.9F, -0.17F, 3.25F, 0.005F, 3.5F, 0.0F},
          {
@@ -1543,7 +1543,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 24;
+      int var1 = 24;
       ANIM[var1] = new float[][]{
          {0.0F, 0.0F, 0.12F, 0.008F, 0.45F, -0.17F, 1.2F, -0.175F, 1.9F, -0.18F, 2.4F, -0.175F, 3.0F, -0.17F, 3.35F, 0.005F, 3.6F, 0.0F},
          {
@@ -1822,7 +1822,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 26;
+      int var1 = 26;
       ANIM[var1] = new float[][]{
          {0.0F, 0.0F, 0.12F, 0.008F, 0.5F, -0.21F, 0.78F, -0.24F, 1.95F, -0.242F, 2.3F, -0.21F, 3.0F, -0.2F, 3.35F, 0.005F, 3.6F, 0.0F},
          {0.0F, 0.0F, 0.12F, -0.012F, 0.5F, 0.14F, 0.78F, 0.185F, 1.4F, 0.192F, 1.95F, 0.186F, 2.3F, 0.14F, 3.0F, 0.135F, 3.35F, -0.005F, 3.6F, 0.0F},
@@ -2012,7 +2012,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 28;
+      int var1 = 28;
       ANIM[var1] = new float[][]{
          {0.0F, 0.0F, 0.15F, 0.008F, 0.6F, -0.12F, 1.6F, -0.13F, 2.0F, -0.19F, 2.6F, -0.195F, 3.05F, -0.14F, 3.45F, 0.005F, 3.7F, 0.0F},
          {0.0F, 0.0F, 0.15F, -0.012F, 0.6F, 0.1F, 1.6F, 0.105F, 2.0F, 0.15F, 2.6F, 0.155F, 3.05F, 0.1F, 3.45F, -0.005F, 3.7F, 0.0F},
@@ -2153,7 +2153,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 30;
+      int var1 = 30;
       ANIM[var1] = new float[][]{
          {0.0F, 0.0F, 0.3F, -0.06F, 0.55F, -0.13F, 0.82F, -0.25F, 1.12F, -0.2F, 1.6F, -0.24F, 2.2F, -0.22F, 2.6F, 0.005F, 2.9F, 0.0F},
          {0.0F, 0.0F, 0.3F, -0.035F, 0.46F, 0.06F, 0.8F, 0.3F, 1.1F, 0.04F, 1.2F, -0.005F, 1.42F, 0.04F, 1.65F, 0.08F, 2.2F, 0.075F, 2.6F, -0.004F, 2.9F, 0.0F},
@@ -2283,7 +2283,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 33;
+      int var1 = 33;
       ANIM[var1] = new float[][]{
          {0.0F, 0.0F, 0.15F, 0.01F, 0.65F, -0.24F, 2.3F, -0.25F, 2.85F, -0.15F, 3.15F, 0.005F, 3.35F, 0.0F},
          {0.0F, 0.0F, 0.15F, -0.015F, 0.65F, 0.12F, 1.4F, 0.13F, 2.3F, 0.12F, 2.85F, 0.06F, 3.15F, -0.004F, 3.35F, 0.0F},
@@ -2414,7 +2414,7 @@ public final class BevelArrayCache {
       }
 
       float[] var0 = new float[0];
-      byte var1 = 40;
+      int var1 = 40;
       ANIM[var1] = new float[][]{
          {
                0.0F,
@@ -3960,7 +3960,7 @@ public final class BevelArrayCache {
                var76 = -var76;
             }
 
-            byte var78 = var19[var53];
+            int var78 = var19[var53];
             float var79 = var54 == 1 ? var17[var53] * var12 : var17[var53];
             float var80 = var68 * var27 + var69 * var28 + var70 * var29;
             float var81 = var68 * var30 + var69 * var31 + var70 * var32;
@@ -4179,7 +4179,7 @@ public final class BevelArrayCache {
       float var20 = 0.31103516F;
       float var21 = 0.87646484F;
       float var22 = 0.93603516F;
-      byte var23 = 0;
+      int var23 = 0;
 
       for (int var24 = 0; var24 < var5; var24++) {
          int var25 = var4[var24] * 12;
@@ -4327,7 +4327,7 @@ public final class BevelArrayCache {
             float var75 = 0.31103516F;
             float var77 = 0.87646484F;
             float var79 = 0.93603516F;
-            byte var81 = 0;
+            int var81 = 0;
             int var82 = -1706420908 ^ -1706420620;
             int var83 = 0;
 
@@ -4355,7 +4355,7 @@ public final class BevelArrayCache {
                float var43 = ej[var85] - var40;
                float var44 = ej[var85 + 1] - var41;
                float var45 = ej[var85 + 2] - var42;
-               byte var46 = 1;
+               int var46 = 1;
                int var39;
                if (var36 < 12) {
                   var39 = (int)Math.ceil(Math.sqrt(var43 * var43 + var44 * var44 + var45 * var45) / var65);
@@ -4464,7 +4464,7 @@ public final class BevelArrayCache {
 
    private static void ar(float var0, float var1, float var2) {
       int var3 = 0;
-      byte var4 = 0;
+      int var4 = 0;
 
       label17:
       while (true) {
@@ -4911,9 +4911,9 @@ public final class BevelArrayCache {
                   var12 = fo[var42 + var45];
                   fo[var42 + var45] = fo[var42 + var11];
                   fo[var42 + var11] = var12;
-                  byte var13 = fp[var42 + var45];
+                  int var13 = fp[var42 + var45];
                   fp[var42 + var45] = fp[var42 + var11];
-                  fp[var42 + var11] = var13;
+                  fp[var42 + var11] = (byte)var13;
                   var45++;
                }
 
@@ -5296,7 +5296,7 @@ public final class BevelArrayCache {
       fx = 0;
       if (et) {
          if (var16) {
-            byte var52 = 0;
+            int var52 = 0;
 
             for (int var53 = 1; var53 < var17; var53++) {
                var52 = (byte)(fs[var53] > fs[var52] ? var53 : var52);
@@ -5349,7 +5349,7 @@ public final class BevelArrayCache {
                var28 = var27;
             }
 
-            byte var29 = fw[var62];
+            int var29 = fw[var62];
             int var30 = var27;
             int var31 = var28;
             if (var29 == 2) {
@@ -5891,7 +5891,7 @@ public final class BevelArrayCache {
       bk(-0.19F, 2.02F, 0.0F, 1.0F, 0.0F, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F, 11, true, true);
       ex = 9;
       fq = 0;
-      byte var17 = 8;
+      int var17 = 8;
       ba(-10.5F, 0.0F);
       bi(-0.01F, 1.0F, 0.88F, 8, 0.9F);
 

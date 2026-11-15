@@ -436,7 +436,7 @@ public final class PanelZoneCache {
             var26 = var27 == (-411836625 ^ -1735647024) ? -2 : (int)(Math.max(0, var27) / var20);
          }
 
-         byte var28 = 0;
+         int var28 = 0;
          if (be[var25] || bm[var25] != var18) {
             var28 |= 1;
          }
@@ -590,7 +590,7 @@ public final class PanelZoneCache {
 
    private static void g(RegistryEntry<StatusEffect> var0) {
       int var1 = 0;
-      byte var2 = 0;
+      int var2 = 0;
 
       label16:
       while (true) {
@@ -693,7 +693,7 @@ public final class PanelZoneCache {
       }
 
       int var9 = 0;
-      byte var10 = 0;
+      int var10 = 0;
       if (var1 >= 0) {
          var9 = var1 / (309364244 ^ 309364740);
          var10 = (byte)(var9 > 0 ? var1 / 60 % 60 : var1 / 60);
@@ -1185,7 +1185,7 @@ public final class PanelZoneCache {
 
    private static int p() {
       int var0 = 0;
-      byte var1 = 0;
+      int var1 = 0;
 
       while (true) {
          switch (var1) {

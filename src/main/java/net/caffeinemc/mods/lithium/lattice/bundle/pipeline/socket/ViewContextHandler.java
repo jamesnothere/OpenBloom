@@ -1669,7 +1669,7 @@ public class ViewContextHandler extends BuilderFactory {
       int var8 = 0;
       int var9 = 0;
       int var10 = 0;
-      byte var11 = 0;
+      int var11 = 0;
 
       label53:
       while (true) {

@@ -685,7 +685,7 @@ public final class PaletteArrayCache {
 
          for (int var24 = var5; var24 < var7; var24++) {
             for (int var25 = var4; var25 < var6; var25++) {
-               byte var14 = var2[var24 * (427758841 ^ 427758713) + var25];
+               int var14 = var2[var24 * (427758841 ^ 427758713) + var25];
                boolean var15 = true;
 
                for (int var16 = Math.max(var9, var24 - 1); var15 && var16 <= Math.min(var11 - 1, var24 + 1); var16++) {

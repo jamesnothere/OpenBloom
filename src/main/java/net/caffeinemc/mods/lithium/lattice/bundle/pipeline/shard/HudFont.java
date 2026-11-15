@@ -159,7 +159,7 @@ public final class HudFont {
    }
 
    private static Font d() {
-      byte var0 = 0;
+      int var0 = 0;
 
       while (true) {
          switch (var0) {
@@ -197,7 +197,7 @@ public final class HudFont {
    }
 
    private static int e(char var0) {
-      byte var1 = 0;
+      int var1 = 0;
 
       while (true) {
          switch (var1) {
@@ -505,7 +505,7 @@ public final class HudFont {
 
                   try {
                      if (var6) {
-                        byte var9 = 1;
+                        int var9 = 1;
                         u(var0, var7, var8, var1, var2 + var9, var3 + var9, t(var5), true);
                      }
 
@@ -549,7 +549,7 @@ public final class HudFont {
                   }
 
                   if (var6) {
-                     byte var10 = 1;
+                     int var10 = 1;
                      w(var0, var7, var9, var2 + var10, var3 + var10, t(var5), true);
                   }
 
@@ -983,7 +983,7 @@ public final class HudFont {
 
       public void setupVertices(VertexConsumer vertices) {
          int var2 = 0;
-         byte var3 = 0;
+         int var3 = 0;
          int var4 = 0;
          byte var5 = 0;
 

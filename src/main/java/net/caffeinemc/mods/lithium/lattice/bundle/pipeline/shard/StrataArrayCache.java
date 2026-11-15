@@ -654,7 +654,7 @@ public final class StrataArrayCache {
    }
 
    public static float b(float var0) {
-      byte var1 = 0;
+      int var1 = 0;
 
       while (true) {
          switch (var1) {
@@ -1442,7 +1442,7 @@ public final class StrataArrayCache {
          float[] var15 = an;
          float[] var16 = ao;
          float[] var17 = VB;
-         byte var18 = 49;
+         int var18 = 49;
 
          for (int var19 = 0; var19 < var3; var19++) {
             float var20 = var0[var19];
@@ -1453,7 +1453,7 @@ public final class StrataArrayCache {
             }
          }
 
-         byte var55 = 0;
+         int var55 = 0;
          float var56 = var11 - 0.12F;
 
          for (int var57 = 0; var57 < var3 - 1; var57++) {

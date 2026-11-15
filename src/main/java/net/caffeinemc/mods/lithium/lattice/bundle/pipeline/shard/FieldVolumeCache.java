@@ -1173,7 +1173,7 @@ public final class FieldVolumeCache {
          bj = true;
 
          try {
-            byte var1 = 64;
+            int var1 = 64;
             NativeImage var2 = new NativeImage(Format.RGBA, var1, var1, false);
 
             for (int var3 = 0; var3 < var1; var3++) {
@@ -2074,7 +2074,7 @@ public final class FieldVolumeCache {
          int var7 = var5 - qk + 24;
          if (var6 >= 0 && var7 >= 0 && var6 < 49 && var7 < 49) {
             int var8 = var7 * 49 + var6;
-            byte var9 = pu[var8];
+            int var9 = pu[var8];
             if (var9 == 4) {
                int var10 = var8 << 6 | ((int)((var0 - var4) * 8.0) & 7) << 3 | (int)((var2 - var5) * 8.0) & 7;
                qo = qb[var10];

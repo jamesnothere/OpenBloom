@@ -1802,7 +1802,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
       this.lq = this.gu.h();
       this.lr = this.gv.h();
       this.ls = this.gw.h();
-      byte var2 = 0;
+      int var2 = 0;
       if (this.fp.f()) {
          var2 |= 1;
       }
@@ -2224,7 +2224,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
 
       try {
          if (var1 == 6) {
-            byte var8 = 9;
+            int var8 = 9;
             int var11 = 26 + lm[cw(ku[9], 1.0F)] + 5;
             int var12 = 5 + Math.max(16, var8) + 3 + 3 + 5;
             return new int[]{var11 / 2 + 2, var12 / 2 + 2};
@@ -3125,7 +3125,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
                int var62 = var2 + Math.round(var61 * var39);
                int var63 = Math.min(var2 + var4, var2 + Math.round((var61 + 1) * var39));
                if (var63 > var62) {
-                  byte var64 = wv[var56 * 24 + var61];
+                  int var64 = wv[var56 * 24 + var61];
                   int var28 = 14 - Math.abs(var56 - 2) - Math.abs(var61 - 2);
                   int var29 = (var28 < 0 ? 0 : var28) * 12;
                   int var30 = var29 + (72318310 ^ 72318374);
@@ -3574,7 +3574,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
             float var31 = var29 * var12 * 0.92F;
 
             for (int var32 = 0; var32 < 59; var32++) {
-               byte var33 = HaloPassCache.WF_R[var32];
+               int var33 = HaloPassCache.WF_R[var32];
                boolean var34 = var33 <= 1;
                float var35 = HaloPassCache.WF_X[var32];
                float var36 = HaloPassCache.WF_Y[var32];
@@ -5924,9 +5924,9 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
       Matrix3x2fStack var10 = var1.getMatrices();
       int var11 = (int)(dz(var4) * 255.0 + 0.5);
       float var12 = var4 >= 1.0 ? 1.0F : (var4 <= 0.0 ? 0.0F : (float)var4);
-      byte var13 = 9;
-      byte var14 = 5;
-      byte var15 = 16;
+      int var13 = 9;
+      int var14 = 5;
+      int var15 = 16;
       int var16 = cw(var6, 1.0F);
       Text var17 = ll[var16];
       int var18 = lm[var16];
@@ -6797,7 +6797,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
 
       String var16 = null;
       String var17 = null;
-      byte var12 = 0;
+      int var12 = 0;
       if (this.mj) {
          var16 = dr(8, Math.round(Math.max(0.0F, a.player.distanceTo(var1)) * 10.0F));
          if (var8) {
@@ -6899,7 +6899,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
    }
 
    private ItemStack cv() {
-      byte var1 = 0;
+      int var1 = 0;
 
       while (true) {
          switch (var1) {
@@ -6989,11 +6989,11 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
          }
       }
 
-      byte var24 = 6;
-      byte var25 = 22;
-      byte var26 = 16;
+      int var24 = 6;
+      int var25 = 22;
+      int var26 = 16;
       byte var27 = 2;
-      byte var13 = 9;
+      int var13 = 9;
       float var14 = lm[cw(var1, this.mo)] + (var3 > 0.0F ? this.cy(var4) * var3 : 0.0F);
       int var15 = var7 ? lm[cw(ku[5], this.mo)] : 0;
       int var16 = var8 * (var26 + var27);
@@ -7023,7 +7023,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
       boolean var14 = var2 instanceof PlayerEntity;
       boolean var15 = this.mh || this.ny > 0.0F;
       boolean var16 = var14 && (this.mk || this.nz > 0.0F);
-      byte var17 = 0;
+      int var17 = 0;
       if (var16) {
          Integer var18 = this.tp.get(var2.getId());
          var17 = (byte)(var18 != null ? var18 : 0);

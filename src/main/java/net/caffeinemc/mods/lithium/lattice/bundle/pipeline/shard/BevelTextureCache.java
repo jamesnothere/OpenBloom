@@ -451,7 +451,7 @@ public final class BevelTextureCache {
             float var19 = var12 - var14;
             float var20 = (float)Math.sqrt(var18 * var18 + var19 * var19);
             float var21 = (float)Math.atan2(var19, var18);
-            byte var22 = 13;
+            int var22 = 13;
             float var23 = 6.2832F / var22;
             float var24 = (var21 + 3.14159F) / var23;
             int var25 = (int)Math.floor(var24);
