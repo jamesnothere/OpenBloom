@@ -816,7 +816,7 @@ public final class HudFont {
             float var8 = -Float.MAX_VALUE;
             int var9 = 0;
 
-            for (byte var10 = 0; var9 < var1; var10 += 8) {
+            for (int var10 = 0; var9 < var1; var10 += 8) {
                var5 = Math.min(var5, var3[var10]);
                var6 = Math.min(var6, var3[var10 + 1]);
                var7 = Math.max(var7, var3[var10 + 2]);
@@ -856,7 +856,7 @@ public final class HudFont {
          float var11 = -Float.MAX_VALUE;
          int var12 = 0;
 
-         for (byte var13 = 0; var12 < var4; var13 += 8) {
+         for (int var13 = 0; var12 < var4; var13 += 8) {
             var8 = Math.min(var8, var2[var13]);
             var9 = Math.min(var9, var2[var13 + 1]);
             var10 = Math.max(var10, var2[var13 + 2]);

@@ -343,7 +343,7 @@ public final class LevelArrayCache {
       int var12 = 0;
       var11 = b(var0, var11, var3, var5 + 1.0, 0.3);
 
-      for (byte var13 = -1; var13 <= 1; var13 += 2) {
+      for (int var13 = -1; var13 <= 1; var13 += 2) {
          double[] var14 = var13 < 0 ? var10 : var9;
          int var15 = var14.length / 4;
          double[] var17 = new double[var15 * 3 * 3];
@@ -428,7 +428,7 @@ public final class LevelArrayCache {
       var22 = b(var1, var22, var5, var7 + 0.5, 0.3);
       double[] var24 = new double[(var15 * 4 + 8) * 5];
 
-      for (byte var25 = -1; var25 <= 1; var25 += 2) {
+      for (int var25 = -1; var25 <= 1; var25 += 2) {
          double var26 = var4 && var25 > 0 ? 0.075 : 0.0;
          double var28 = var26 + 0.075;
          double var30 = var4 ? 0.935 : 0.9;
@@ -765,7 +765,7 @@ public final class LevelArrayCache {
                   double var77 = var6 + var67 * var75;
                   double var78 = var8 + var70 * var75;
 
-                  for (byte var79 = -1; var79 <= 1; var79 += 2) {
+                  for (int var79 = -1; var79 <= 1; var79 += 2) {
                      double var80 = Math.cos(Math.toRadians(50.0));
                      double var33 = Math.sin(Math.toRadians(50.0)) * var79;
                      double var35 = var67 * var80 - var70 * var33;
@@ -987,7 +987,7 @@ public final class LevelArrayCache {
             var3[var38] = (float)var52;
             double var56 = var2[var38];
 
-            for (byte var57 = 0; var57 + 2 < var49.length; var57 += 3) {
+            for (int var57 = 0; var57 + 2 < var49.length; var57 += 3) {
                double var42 = var51 - var49[var57];
                double var44 = var25 - var49[var57 + 1];
                double var46 = var49[var57 + 2] - Math.sqrt(var42 * var42 + var44 * var44);
@@ -1439,7 +1439,7 @@ public final class LevelArrayCache {
                   var56 += ((var83 >> 8 & (722976991 ^ 722976800)) - var56) * var81;
                   var58 += ((var83 & (-755247638 ^ -755247851)) - var58) * var81;
 
-                  for (byte var84 = 0; var84 + 3 < var35.length; var84 += 4) {
+                  for (int var84 = 0; var84 + 3 < var35.length; var84 += 4) {
                      double var85 = var37 + 0.5 - var35[var84];
                      double var87 = var36 + 0.5 - var35[var84 + 1];
                      double var89 = var35[var84 + 2];

@@ -382,7 +382,7 @@ public final class PlateBatchCache {
                float var73 = var5 + var64 * var8 + var71 * var11;
                float var74 = var6 + var64 * var9 + var71 * var12;
 
-               for (byte var75 = 0; var75 < var44; var75 += 2) {
+               for (int var75 = 0; var75 < var44; var75 += 2) {
                   int var77 = var75 + 1;
                   int var79 = var75 + 2 == var44 ? 0 : var75 + 2;
                   var0.vertex(var72, var73, var74).color(var30);

@@ -207,7 +207,7 @@ public final class SampleArrayCache {
                double var51 = 1.0E9;
                int var53 = 0;
 
-               for (byte var54 = 0; var53 < var2; var54 += 6) {
+               for (int var54 = 0; var53 < var2; var54 += 6) {
                   double var55 = var45 - var1[var54];
                   double var57 = var47 - var1[var54 + 1];
                   double var59 = (var55 * var1[var54 + 2] + var57 * var1[var54 + 3]) * var1[var54 + 4];
@@ -352,7 +352,7 @@ public final class SampleArrayCache {
                   if (!(var53 >= var61)) {
                      double var63 = 1.0;
 
-                     for (byte var65 = 0; var65 < 9; var65 += 3) {
+                     for (int var65 = 0; var65 < 9; var65 += 3) {
                         double var29 = var15 - var43[var65];
                         double var31 = var17 - var43[var65 + 1];
                         double var33 = var29 * var29 + var31 * var31;

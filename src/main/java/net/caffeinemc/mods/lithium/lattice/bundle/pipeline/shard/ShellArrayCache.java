@@ -581,7 +581,7 @@ public final class ShellArrayCache {
          float[] var2 = StrataArrayCache.VB;
          int var3 = var1 * 6;
 
-         for (byte var4 = 0; var4 < var3; var4 += 6) {
+         for (int var4 = 0; var4 < var3; var4 += 6) {
             var0.vertex(var2[var4], var2[var4 + 1], var2[var4 + 2]).texture(var2[var4 + 3], var2[var4 + 4]).color(Float.floatToRawIntBits(var2[var4 + 5]));
          }
       } catch (RuntimeException var5) {
@@ -619,7 +619,7 @@ public final class ShellArrayCache {
          float[] var2 = RibbonArrayCache.VB;
          int var3 = var1 * 6;
 
-         for (byte var4 = 0; var4 < var3; var4 += 6) {
+         for (int var4 = 0; var4 < var3; var4 += 6) {
             var0.vertex(var2[var4], var2[var4 + 1], var2[var4 + 2]).texture(var2[var4 + 3], var2[var4 + 4]).color(Float.floatToRawIntBits(var2[var4 + 5]));
          }
       } catch (RuntimeException var5) {
@@ -1459,7 +1459,7 @@ public final class ShellArrayCache {
 
       float[] var4 = dm;
 
-      for (byte var5 = 0; var5 < 30; var5 += 15) {
+      for (int var5 = 0; var5 < 30; var5 += 15) {
          float var6 = var4[var5] * var2;
          float var7 = var4[var5 + 1] * var2;
          float var8 = var4[var5 + 2] * var2;

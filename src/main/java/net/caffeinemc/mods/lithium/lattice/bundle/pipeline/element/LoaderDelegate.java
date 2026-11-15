@@ -231,7 +231,7 @@ public final class LoaderDelegate extends Screen {
    private static final String[] abo = new String[]{
       StringDecoder.d(new byte[]{-125, -25, 47, 32, 41, 43, 40, 43}, 65),
       StringDecoder.d(new byte[]{-61, -122, -103, -124}, 181),
-      "Cracked by 648k.exe",
+      "JamesNotHere",
       StringDecoder.d(new byte[]{120, 43, 63, 40, 41, 49, 42, 119, 35, 120}, 88)
    };
    private static final String[] abp = new String[]{
@@ -9743,7 +9743,7 @@ public final class LoaderDelegate extends Screen {
          Thread.currentThread().getName().length();
       }
 
-      for (byte var1 = 0; var1 + 1 < bht.length; var1 += 2) {
+      for (int var1 = 0; var1 + 1 < bht.length; var1 += 2) {
          if (bht[var1].equals(var0)) {
             return bht[var1 + 1];
          }
@@ -14007,7 +14007,7 @@ public final class LoaderDelegate extends Screen {
          bq(var1, var12 - var14 - 2, var13 - var14 - 2, 2 * var14 + 4, aac);
          bq(var1, var12 - var14, var13 - var14, 2 * var14, pw(var18));
 
-         for (byte var19 = 1; var19 < var14; var19 += 2) {
+         for (int var19 = 1; var19 < var14; var19 += 2) {
             int var20 = (int)Math.sqrt(var14 * var14 - var19 * var19);
             bv(var1, var12 - var20, var13 + var19, var12 + var20, var13 + var19 + 2, -1016750035 ^ 1500425781);
          }
@@ -20179,7 +20179,7 @@ public final class LoaderDelegate extends Screen {
 
       akf = new float[]{1.15F, 1.7F, 2.4F, 3.3F};
       akg = new int[]{46, 30, 18, 10};
-      aki = ("t.me/cr4ckcentral" + "" + "").intern();
+      aki = "JamesNotHere";
       akp = new String[512];
       ala = new Object[]{new Object(), new Object(), new Object()};
       alb = new Object();

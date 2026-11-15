@@ -1515,7 +1515,7 @@ public final class EchoPassCache {
                   dw[var80 + 1] = var41;
                   dw[var80 + 2] = var42;
 
-                  for (byte var47 = 3; var47 < 12; var47 += 3) {
+                  for (int var47 = 3; var47 < 12; var47 += 3) {
                      dw[var80 + var47] = dw[var80 + var47 - 3] + (var1.nextFloat() * 0.18F - 0.09F) * var2;
                      dw[var80 + var47 + 1] = dw[var80 + var47 - 2] + (var1.nextFloat() * 0.24F - 0.12F) * var2;
                      dw[var80 + var47 + 2] = dw[var80 + var47 - 1] + (var1.nextFloat() * 0.18F - 0.09F) * var2;
@@ -4944,7 +4944,7 @@ public final class EchoPassCache {
                            fn[13] = var69 * var119;
                            fn[14] = var69 * var122;
 
-                           for (byte var82 = 3; var82 < 12; var82 += 6) {
+                           for (int var82 = 3; var82 < 12; var82 += 6) {
                               float var83 = fn[var82 - 3] + fn[var82 + 3];
                               float var84 = fn[var82 - 2] + fn[var82 + 4];
                               float var85 = fn[var82 - 1] + fn[var82 + 5];

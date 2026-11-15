@@ -1688,7 +1688,7 @@ public final class PaneGlassCache implements SimpleGuiElementRenderState {
                   float[] var83 = this.bf;
                   int[] var84 = this.bg;
 
-                  for (byte var85 = 1; var85 < var35 - 1; var85 += 2) {
+                  for (int var85 = 1; var85 < var35 - 1; var85 += 2) {
                      int var89 = var85 + 2 < var35 ? var85 + 2 : var85 + 1;
                      int var92 = var44 ? var89 : var85;
                      int var95 = var44 ? var85 : var89;
@@ -2352,7 +2352,7 @@ public final class PaneGlassCache implements SimpleGuiElementRenderState {
 
                      int var133 = this.o();
 
-                     for (byte var136 = 1; var136 < var133 - 1; var136 += 2) {
+                     for (int var136 = 1; var136 < var133 - 1; var136 += 2) {
                         for (int var138 = 0; var138 < 4; var138++) {
                            int var139 = var138 == 0 ? 0 : (var136 + var138 - 1 < var133 ? var136 + var138 - 1 : var133 - 1);
                            var83[var120] = dt[var139];

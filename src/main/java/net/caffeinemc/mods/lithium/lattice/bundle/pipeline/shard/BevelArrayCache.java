@@ -3570,7 +3570,7 @@ public final class BevelArrayCache {
          float var11 = cd[var0];
          float var12 = cc[var0];
 
-         for (byte var13 = 0; var13 < var10.length && var7 < CUE_HIT.length; var13 += 4) {
+         for (int var13 = 0; var13 < var10.length && var7 < CUE_HIT.length; var13 += 4) {
             if (var10[var13] > var11 && var10[var13] <= var12) {
                CUE_HIT[var7++] = var13;
             }
@@ -3608,7 +3608,7 @@ public final class BevelArrayCache {
          double var16 = var1 * 1.0E-9;
          float[] var17 = MICRO;
 
-         for (byte var18 = 0; var18 < var17.length; var18 += 4) {
+         for (int var18 = 0; var18 < var17.length; var18 += 4) {
             var6[(int)var17[var18]] = var6[(int)var17[var18]] + var17[var18 + 1] * (float)Math.sin(var16 * (Math.PI * 2) / var17[var18 + 2] + var17[var18 + 3]);
          }
       }
@@ -4129,7 +4129,7 @@ public final class BevelArrayCache {
          int[] var8 = SC;
          boolean[] var9 = eh;
 
-         for (byte var10 = 0; var10 < var1; var10 += 4) {
+         for (int var10 = 0; var10 < var1; var10 += 4) {
             int var11 = var0[var10];
             int var12 = var0[var10 + 1];
             int var13 = var0[var10 + 2];
@@ -4786,7 +4786,7 @@ public final class BevelArrayCache {
          NC[var0] = var1;
          int var29 = 0;
 
-         for (byte var31 = 0; var31 + 3 < var1; var31 += 4) {
+         for (int var31 = 0; var31 + 3 < var1; var31 += 4) {
             if (er[var31] == 7) {
                var29++;
             }
@@ -4795,7 +4795,7 @@ public final class BevelArrayCache {
          int[] var32 = new int[var29];
          var29 = 0;
 
-         for (byte var33 = 0; var33 + 3 < var1; var33 += 4) {
+         for (int var33 = 0; var33 + 3 < var1; var33 += 4) {
             if (er[var33] == 7) {
                var32[var29++] = var33;
             }
@@ -5095,7 +5095,7 @@ public final class BevelArrayCache {
       float var5 = fi[var0] * var1;
       float var6 = fj[var0] * var1;
 
-      for (byte var7 = 1; var7 + 1 < var3; var7 += 2) {
+      for (int var7 = 1; var7 + 1 < var3; var7 += 2) {
          int var8 = var7 + 2 < var3 ? var7 + 2 : var7 + 1;
 
          for (int var9 = 0; var9 < 4; var9++) {
@@ -5469,7 +5469,7 @@ public final class BevelArrayCache {
          System.nanoTime();
       }
 
-      for (byte var5 = -1; var5 <= 1; var5 += 2) {
+      for (int var5 = -1; var5 <= 1; var5 += 2) {
          fx = 0;
          bj(var3, var2 - 0.03F, 0.0F, 0, 0.7F);
          bj(var3 * 0.9F, var2 + 0.03F, 0.5F, 0, 1.0F);

@@ -85,7 +85,7 @@ public abstract class PlayerListCache {
 
             if (var12 != 0) {
                if (var10 > 1 && var12 > 2) {
-                  for (byte var25 = 2; var25 < var12; var25 += 2) {
+                  for (int var25 = 2; var25 < var12; var25 += 2) {
                      int var28 = var11[var25];
                      int var31 = var11[var25 + 1];
 
@@ -101,7 +101,7 @@ public abstract class PlayerListCache {
 
                   byte var26 = 2;
 
-                  for (byte var29 = 2; var29 < var12; var29 += 2) {
+                  for (int var29 = 2; var29 < var12; var29 += 2) {
                      if (var11[var29] >= var11[var26 - 2] + var11[var26 - 1]) {
                         var11[var26] = var11[var29];
                         var11[var26 + 1] = var11[var29 + 1];
@@ -120,7 +120,7 @@ public abstract class PlayerListCache {
                   Builder var35 = ImmutableList.builderWithExpectedSize(var6 + (var32 + 4) * (var12 >> 1));
                   int var36 = 0;
 
-                  for (byte var37 = 0; var37 < var12; var37 += 2) {
+                  for (int var37 = 0; var37 < var12; var37 += 2) {
                      int var40 = var11[var37];
                      int var41 = var11[var37 + 1];
                      var34.append(var5, var36, var40);

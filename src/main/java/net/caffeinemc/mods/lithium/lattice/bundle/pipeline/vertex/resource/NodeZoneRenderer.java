@@ -3030,7 +3030,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
       int var32 = -1148836077 ^ 1149642515 | do99(dn(dn(2049580294 ^ 2050373400, var29, 0.12F), var29, 0.75F * var18), var8, var17);
       var1.fill(var2, var3 + var19, var2 + var4, var3 + var5, var32);
 
-      for (byte var33 = 0; var33 < var4; var33 += 2) {
+      for (int var33 = 0; var33 < var4; var33 += 2) {
          float var34 = 3.0F + 2.5F * MathHelper.sin(var33 * 0.09F) + 1.5F * MathHelper.sin(var33 * 0.23F + 1.3F);
          var1.fill(var2 + var33, var3 + var19 - Math.round(var34), var2 + Math.min(var4, var33 + 2), var3 + var19, var32);
       }
@@ -3235,7 +3235,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
             int var40 = dn(var15, -1193181985 ^ -1205959904, 0.4F);
             int var41 = 0;
 
-            for (byte var42 = 0; var42 < 24 && var41 + 3 <= 37; var42 += 2) {
+            for (int var42 = 0; var42 < 24 && var41 + 3 <= 37; var42 += 2) {
                for (int var43 = 0; var43 < 3; var43++) {
                   float var44 = (var42 + (var43 == 0 ? 0 : 1)) / 24.0F;
                   float var45 = 1.0F - var44;
@@ -3569,7 +3569,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
          float[] var27 = xe;
          int[] var28 = xf;
 
-         for (byte var29 = -1; var29 <= 1; var29 += 2) {
+         for (int var29 = -1; var29 <= 1; var29 += 2) {
             float var30 = var2 + var29 * var10;
             float var31 = var29 * var12 * 0.92F;
 
@@ -3654,7 +3654,7 @@ public final class NodeZoneRenderer extends BuilderFactory implements InitNotifi
       } catch (Throwable var55) {
          float var14 = MathHelper.sin(var6 * 2.6F) * 0.2F;
 
-         for (byte var15 = -1; var15 <= 1; var15 += 2) {
+         for (int var15 = -1; var15 <= 1; var15 += 2) {
             for (int var16 = 0; var16 < 6; var16++) {
                float var17 = (0.5F + 0.36F * var16 + var14 * (1.0F - var16 * 0.14F)) * var15;
                float var18 = var5 * (1.25F - 0.1F * var16);

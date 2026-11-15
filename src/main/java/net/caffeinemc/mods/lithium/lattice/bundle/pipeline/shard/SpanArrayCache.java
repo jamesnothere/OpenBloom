@@ -1443,7 +1443,7 @@ public final class SpanArrayCache {
                var20 = var20 <= 0.0 ? 0.0 : (var20 >= 1.0 ? 1.0 : var20);
                double var22 = 0.62 * (1.0 - 0.28 * (var20 * var20 * (3.0 - 2.0 * var20))) * (0.92 + 0.16 * var6[var15]);
 
-               for (byte var24 = 0; var24 < (1951273122 ^ 1951272962); var24 += 4) {
+               for (int var24 = 0; var24 < (1951273122 ^ 1951272962); var24 += 4) {
                   double var25 = var16 - var7[var24];
                   double var27 = var0 - var7[var24 + 1];
                   double var29 = var18 - var7[var24 + 2];

@@ -390,7 +390,7 @@ public class ConfigBridge implements ClientModInitializer {
       e();
       this.ad = true;
       am = "";
-      USER_NAME = "648k.exe";
+      USER_NAME = "JamesNotHere";
       USER_EXPIRES = "lifetime";
       USER_DAYS = 648;
       SortableData.d[0] = 1;

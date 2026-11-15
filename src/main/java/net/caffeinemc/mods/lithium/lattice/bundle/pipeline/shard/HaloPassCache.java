@@ -2209,7 +2209,7 @@ public final class HaloPassCache {
                         var82[var130 + 10] = var97;
                         var82[var130 + 11] = var98;
 
-                        for (byte var131 = 12; var131 < 20; var131 += 1) {
+                        for (int var131 = 12; var131 < 20; var131 += 1) {
                            var82[var130 + var131] = 0.5F;
                         }
 

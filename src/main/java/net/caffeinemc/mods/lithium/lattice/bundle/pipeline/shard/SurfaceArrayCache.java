@@ -354,7 +354,7 @@ public final class SurfaceArrayCache {
                   0.45F * var19
                );
 
-               for (byte var38 = -1; var38 <= 1; var38 += 2) {
+               for (int var38 = -1; var38 <= 1; var38 += 2) {
                   float var39 = var38 * var17 * 0.46F;
                   k(
                      var0,

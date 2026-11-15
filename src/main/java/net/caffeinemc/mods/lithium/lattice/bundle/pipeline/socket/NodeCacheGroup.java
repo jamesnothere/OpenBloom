@@ -1445,7 +1445,7 @@ public class NodeCacheGroup extends BuilderFactory {
                         }
 
                         if (var68 != 8) {
-                           for (byte var139 = 1; var139 < 8; var139 <<= 1) {
+                           for (int var139 = 1; var139 < 8; var139 <<= 1) {
                               if ((var132 & var139) == 0) {
                                  int var141 = var132 | var139;
                                  float var79 = var16[var141];
