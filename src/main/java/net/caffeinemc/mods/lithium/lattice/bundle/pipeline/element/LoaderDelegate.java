@@ -5007,14 +5007,14 @@ public final class LoaderDelegate extends Screen {
       int var14 = var3 - var6;
       boolean var15 = var7 != this.abz && !var7.isEmpty() && ((BuilderFactory)var7.get(0)).i() == ParserEngine.CT;
       int var16 = -1;
-      ViewCacheIndex var17 = null;
+      BuilderFactory var17 = null;
       InitAdapter var18 = null;
 
       try {
          int var19 = 0;
 
          for (int var20 = var7.size(); var19 < var20; var19++) {
-            var17 = (ViewCacheIndex)var7.get(var19);
+            var17 = var7.get(var19);
             int var21 = var15 ? an(var17) : -1;
             if (var21 >= 0 && var21 != var16) {
                if (var10 ? var14 >= var3 && var14 + 10 <= var5 : var14 + 10 > var3 - var13 && var14 < var5) {
@@ -5116,7 +5116,7 @@ public final class LoaderDelegate extends Screen {
 
                   try {
                      if (var100 > 0 && !var10) {
-                        this.ef(var1, var17, var2, var14, var4, var100, var8, var105, var31, var32);
+                        this.ef(var1, (ViewCacheIndex)var17, var2, var14, var4, var100, var8, var105, var31, var32);
                      }
 
                      int var33 = var14 + var100;

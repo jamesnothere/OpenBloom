@@ -16,6 +16,7 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.PlayerSkinDrawer;
 import net.minecraft.client.network.ServerInfo;
+import net.minecraft.client.texture.AbstractTexture;
 import net.minecraft.client.texture.NativeImage;
 import net.minecraft.client.texture.NativeImageBackedTexture;
 import net.minecraft.client.texture.NativeImage.Format;
@@ -569,17 +570,17 @@ public final class HeaderZoneCache {
       }
 
       MinecraftClient var1 = MinecraftClient.getInstance();
-      NativeImageBackedTexture var2 = null;
+      AbstractTexture var2 = null;
       NativeImage var3 = null;
 
       try {
-         var2 = (NativeImageBackedTexture)var1.getTextureManager().getTexture(var0);
+         var2 = var1.getTextureManager().getTexture(var0);
       } catch (Throwable var5) {
          var2 = null;
       }
 
       if (var2 instanceof NativeImageBackedTexture) {
-         var3 = var2.getImage();
+         var3 = ((NativeImageBackedTexture)var2).getImage();
          int[] var4 = k(var3);
          if (var4 != null) {
             return var4;
